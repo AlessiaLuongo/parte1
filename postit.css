@@ -1,0 +1,86 @@
+body {
+  font-family: "Indie Flower";
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+section {
+  padding: 1.5em;
+  background-color: #666666;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.post-it {
+  border: 1px solid black;
+  border: 1px solid black;
+  height: 150px;
+  width: 200px;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: inset -15px -15px 28px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset -15px -15px 28px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 7px 15px 6px rgba(0, 0, 0, 0.33);
+  box-shadow: 4px 7px 15px 6px rgba(0, 0, 0, 0.33);
+}
+
+.post-it div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 0.3em;
+}
+p {
+  font-size: 1.1em;
+}
+
+#task-1 {
+  background-color: #ebecb8;
+  transform: rotate(-3deg);
+}
+
+#task-2 {
+  background-color: #c6f5c8;
+  transform: rotate(5deg);
+}
+
+#task-3 {
+  background-color: #c6c6f3;
+  transform: rotate(-7deg);
+}
+
+#task-4 {
+  background-color: #c6f5c8;
+  transform: rotate(10deg);
+}
+
+#task-5 {
+  background-color: #ebecb8;
+  transform: rotate(-3deg);
+}
+
+#task-6 {
+  background-color: #c6c6f3;
+  transform: rotate(-10deg);
+}
+
+#task-7 {
+  background-color: #ebecb8;
+  transform: rotate(-5deg);
+}
+
+#task-8 {
+  background-color: #c6f5c8;
+  transform: rotate(3deg);
+}
