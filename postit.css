@@ -30,12 +30,6 @@ section {
   box-shadow: 4px 7px 15px 6px rgba(0, 0, 0, 0.33);
 }
 
-.post-it div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 h2 {
   font-weight: 700;
   font-size: 1.5em;
@@ -47,40 +41,59 @@ p {
 
 #task-1 {
   background-color: #ebecb8;
-  transform: rotate(-3deg);
+  transition: all rotate(0deg) scale(1);
+}
+#task-1:hover {
+  transform: rotate(-3deg) scale(1.2);
 }
 
 #task-2 {
   background-color: #c6f5c8;
   transform: rotate(5deg);
 }
-
+#task-2:hover {
+  transform: rotate(0deg) scale(1.2);
+}
 #task-3 {
   background-color: #c6c6f3;
   transform: rotate(-7deg);
 }
-
+#task-3:hover {
+  transform: rotate(0deg) scale(1.2);
+}
 #task-4 {
   background-color: #c6f5c8;
   transform: rotate(10deg);
 }
-
+#task-4:hover {
+  transform: rotate(0deg) scale(1.2);
+}
 #task-5 {
   background-color: #ebecb8;
   transform: rotate(-3deg);
+}
+#task-5:hover {
+  transform: rotate(0deg) scale(1.2);
 }
 
 #task-6 {
   background-color: #c6c6f3;
   transform: rotate(-10deg);
 }
-
+#task-6:hover {
+  transform: rotate(0deg) scale(1.2);
+}
 #task-7 {
   background-color: #ebecb8;
   transform: rotate(-5deg);
 }
-
+#task-7:hover {
+  transform: rotate(0deg) scale(1.2);
+}
 #task-8 {
   background-color: #c6f5c8;
   transform: rotate(3deg);
+}
+#task-8:hover {
+  transform: rotate(0deg) scale(1.2);
 }
